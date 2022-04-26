@@ -63,7 +63,10 @@ group :production do
   gem 'pg', '1.1.4'
 end
 
-gem 'bootstrap-sass', '3.4.1'
+gem 'bootstrap-sass',          '3.4.1'
 gem 'jquery-rails'
-gem 'font-awesome-sass', '~> 5.13'
-gem 'bcrypt',         '3.1.13'
+gem 'font-awesome-sass',       '~> 5.13'
+gem 'bcrypt',                  '3.1.13'
+gem 'faker',                   '2.20.0'
+gem 'will_paginate',           '3.3.1'
+gem 'bootstrap-will_paginate', '1.0.0'
